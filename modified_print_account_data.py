@@ -28,7 +28,7 @@ def print_data(datafile, account_numbers_dict, output_file):
 
 def main(datafile, account_numbers_file, output_file):
     dict_account_number = create_account_numbers_dict(account_numbers_file)
-    print(dict_account_number)
+    #print(dict_account_number)
 
     open(output_file, "w").close()
 
